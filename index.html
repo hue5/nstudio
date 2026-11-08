@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nikhil Studio, wedding and portrait photography</title>
+  <meta name="description" content="Nikhil Studio is a wedding and portrait photography practice working in natural light. A demo site ready for your own photographs and details.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230d0b09'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='20' fill='%23f4efe6' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=7">
+  <script>document.documentElement.classList.add('js');</script>
+<noscript><style>@media (max-width:60rem){.site-nav{display:flex;flex-wrap:wrap;grid-column:1/-1;padding-block:var(--space-xs)}.menu-toggle{display:none}.site-header__cta{display:none}}</style></noscript>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to the work</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <div class="preloader" id="preloader" aria-hidden="true" hidden>
+    <div class="preloader__inner">
+      <p class="preloader__word">Nikhil Studio</p>
+      <div class="preloader__bar"><span></span></div>
+    </div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="shell site-header__inner">
+      <a class="brand" href="index.html" aria-label="Nikhil Studio home">
+        <span class="brand__name">Nikhil Studio</span>
+        <span class="brand__meta">photography</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="work.html">Work</a>
+        <a href="studio.html">Studio</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="btn btn--solid btn--small site-header__cta" href="contact.html" data-magnetic>Book a date</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" id="menu-toggle">
+        <span class="menu-toggle__label">Menu</span>
+        <span class="menu-toggle__bars" aria-hidden="true"><span></span><span></span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true">
+    <div class="shell menu__inner">
+      <nav class="menu__nav" aria-label="Menu">
+        <a href="index.html"><span>Home</span></a>
+        <a href="work.html"><span>Work</span></a>
+        <a href="studio.html"><span>Studio</span></a>
+        <a href="services.html"><span>Services</span></a>
+        <a href="contact.html"><span>Contact</span></a>
+      </nav>
+      <div class="menu__foot">
+        <p>Wedding and portrait photography. By appointment.</p>
+        <a href="mailto:hello@nikhilstudio.example">hello@nikhilstudio.example</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <figure class="hero__media" data-slot="hero" data-alt="Replace with your best wedding or family portrait, wide, daylight, verticals straight." data-kind="photo">
+        <img src="images/hero.jpg" width="1920" height="1280" alt="a South Indian bride and groom walking hand in hand through a banana grove" fetchpriority="high" style="object-position:60% 40%">
+      </figure>
+      <div class="hero__scrim" aria-hidden="true"></div>
+      <div class="hero__content">
+        <div class="shell">
+          <h1 class="hero__title">
+            <span class="line"><span>Light that</span></span>
+            <span class="line"><span>stays.</span></span>
+          </h1>
+          <div class="hero__row">
+            <div class="hero__intro">
+              <p>Wedding and portrait photography, made slowly.</p>
+              <div class="hero__actions">
+                <a class="btn btn--solid" href="contact.html" data-magnetic>Book a date</a>
+                <a class="btn btn--line" href="work.html">See the work</a>
+              </div>
+            </div>
+            <div class="hero__meta">
+              <span>Nikhil Studio</span>
+              <span class="rule" aria-hidden="true"></span>
+              <span>India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true"><span>scroll</span><span class="hero__scroll-line"></span></div>
+    </section>
+
+    <section class="intro section--dark">
+      <div class="shell">
+        <h2 class="intro__statement" data-reveal>A photograph should feel like the day did, not like a pose.</h2>
+        <div class="intro__grid">
+          <div class="intro__copy" data-reveal style="--d: 90ms">
+            <p>We work in natural light, keep directions short, and wait for the moment that is already happening.</p>
+            <p>Weddings, portraits, families, and the quiet parts in between.</p>
+          </div>
+          <figure class="intro__figure" data-reveal="clip" data-slot="intro" data-alt="Replace with a close, quiet portrait from your own work.">
+            <img src="images/bride.jpg" width="1280" height="1913" alt="close portrait of an Indian bride in a red and gold dupatta" loading="lazy" style="object-position:50% 40%">
+            <figcaption class="meta" data-keep>the bride, frame 02</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="selected section--light" id="work">
+      <div class="shell">
+        <div class="section-head" data-reveal>
+          <h2>Selected work</h2>
+          <a class="link" href="work.html">All work</a>
+        </div>
+        <div class="selected__grid">
+          <a class="work-card work-card--a" href="work.html" data-reveal="clip">
+            <figure data-slot="sel-1" data-alt="Replace with your wedding ceremony frame.">
+              <img src="images/procession.jpg" width="1280" height="853" alt="a black and white procession of a South Indian bride and children" loading="lazy" style="object-position:50% 45%">
+            </figure>
+            <div class="work-card__cap"><h3>The procession</h3><span class="meta">Wedding, frame 01</span></div>
+          </a>
+          <a class="work-card work-card--b" href="work.html" data-reveal="clip" style="--d: 100ms">
+            <figure data-slot="sel-2" data-alt="Replace with a family candid at golden hour.">
+              <img src="images/bride.jpg" width="1280" height="1913" alt="close portrait of an Indian bride in a red and gold dupatta" loading="lazy" style="object-position:50% 40%">
+            </figure>
+            <div class="work-card__cap"><h3>Bride, in red</h3><span class="meta">Portrait, frame 02</span></div>
+          </a>
+          <a class="work-card work-card--c" href="work.html" data-reveal="clip">
+            <figure data-slot="sel-3" data-alt="Replace with a close portrait.">
+              <img src="images/mehndi.jpg" width="1280" height="853" alt="a bride's hands covered in intricate mehndi" loading="lazy" style="object-position:50% 50%">
+            </figure>
+            <div class="work-card__cap"><h3>Mehndi, the night before</h3><span class="meta">Detail, frame 03</span></div>
+          </a>
+          <a class="work-card work-card--d" href="work.html" data-reveal="clip" style="--d: 100ms">
+            <figure data-slot="sel-4" data-alt="Replace with an outdoor family frame.">
+              <img src="images/field.jpg" width="1280" height="896" alt="a woman in a sari carrying wheat in a field in Madhya Pradesh" loading="lazy" style="object-position:35% 55%">
+            </figure>
+            <div class="work-card__cap"><h3>The harvest, Madhya Pradesh</h3><span class="meta">Documentary, frame 04</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="film section--dark" id="film" aria-labelledby="film-title">
+      <div class="shell film__head">
+        <h2 id="film-title">From the contact sheet</h2>
+        <p class="meta">Recent frames, in order.</p>
+      </div>
+      <div class="film__viewport">
+        <div class="film__track" id="film-track">
+          <figure class="film__frame">
+            <figure data-slot="film-1" data-alt="Replace with a recent wedding frame.">
+              <img src="images/bride.jpg" width="1280" height="1913" alt="close portrait of an Indian bride" loading="lazy" style="object-position:50% 40%">
+            </figure>
+            <figcaption>frame 01, the bride</figcaption>
+          </figure>
+          <figure class="film__frame">
+            <figure data-slot="film-2" data-alt="Replace with a recent family frame.">
+              <img src="images/family.jpg" width="1280" height="853" alt="a South Indian bride and groom with their family" loading="lazy" style="object-position:50% 40%">
+            </figure>
+            <figcaption>frame 02, the family</figcaption>
+          </figure>
+          <figure class="film__frame">
+            <figure data-slot="film-3" data-alt="Replace with a recent outdoor frame.">
+              <img src="images/mehndi.jpg" width="1280" height="853" alt="a bride's hands covered in intricate mehndi" loading="lazy" style="object-position:50% 50%">
+            </figure>
+            <figcaption>frame 03, mehndi</figcaption>
+          </figure>
+          <figure class="film__frame">
+            <figure data-slot="film-4" data-alt="Replace with a recent portrait.">
+              <img src="images/haldi-groom.jpg" width="1280" height="854" alt="a haldi ceremony with turmeric and marigolds" loading="lazy" style="object-position:50% 40%">
+            </figure>
+            <figcaption>frame 04, haldi</figcaption>
+          </figure>
+          <figure class="film__frame">
+            <figure data-slot="film-5" data-alt="Replace with a studio frame.">
+              <img src="images/procession.jpg" width="1280" height="853" alt="a black and white procession of a South Indian bride and children" loading="lazy" style="object-position:50% 45%">
+            </figure>
+            <figcaption>frame 05, the procession</figcaption>
+          </figure>
+          <figure class="film__frame">
+            <figure data-slot="film-6" data-alt="Replace with a darkroom or print frame.">
+              <img src="images/flower-seller.jpg" width="1280" height="1840" alt="a flower seller on a bicycle with baskets of marigolds" loading="lazy" style="object-position:50% 40%">
+            </figure>
+            <figcaption>frame 06, the flower seller</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section--light" id="services">
+      <div class="shell">
+        <div class="section-head" data-reveal>
+          <h2>What we shoot</h2>
+          <p>Four kinds of days, photographed the same way.</p>
+        </div>
+        <ul class="service-list">
+          <li class="service-row" data-preview="images/couple.jpg">
+            <a href="services.html">
+              <h3>Weddings</h3>
+              <p>Full day and half day coverage, from the first quiet hour to the last song.</p>
+              <span class="service-row__link">Details</span>
+            </a>
+          </li>
+          <li class="service-row" data-preview="images/bride.jpg">
+            <a href="services.html">
+              <h3>Portraits</h3>
+              <p>Studio and outdoor sessions for people who would rather not pose.</p>
+              <span class="service-row__link">Details</span>
+            </a>
+          </li>
+          <li class="service-row" data-preview="images/family.jpg">
+            <a href="services.html">
+              <h3>Families</h3>
+              <p>At home or outside, short and unhurried, built around children.</p>
+              <span class="service-row__link">Details</span>
+            </a>
+          </li>
+          <li class="service-row" data-preview="images/haldi.jpg">
+            <a href="services.html">
+              <h3>Events</h3>
+              <p>Engagements, birthdays, and small celebrations, photographed as they happen.</p>
+              <span class="service-row__link">Details</span>
+            </a>
+          </li>
+        </ul>
+        <div class="service-preview" id="service-preview" aria-hidden="true"><img src="images/couple.jpg" width="1280" height="2773" alt=""></div>
+      </div>
+    </section>
+
+    <section class="process section--dark">
+      <div class="shell">
+        <div class="section-head" data-reveal>
+          <h2>How a day runs</h2>
+          <p>No performance, no long shot lists. A simple plan and room to breathe.</p>
+        </div>
+        <div class="process__grid">
+          <div class="process__sticky">
+            <div class="process__media">
+              <figure class="process__img is-active" data-step="0"><img src="images/couple.jpg" width="1280" height="2773" loading="lazy" alt="an Indian bride and groom at their wedding reception" style="object-position:50% 25%"></figure>
+              <figure class="process__img" data-step="1"><img src="images/hero.jpg" width="1920" height="1280" loading="lazy" alt="a South Indian bride and groom walking hand in hand" style="object-position:60% 40%"></figure>
+              <figure class="process__img" data-step="2"><img src="images/bride-joy.jpg" width="1280" height="1925" loading="lazy" alt="an Indian bride smiling during her wedding" style="object-position:50% 35%"></figure>
+            </div>
+            <p class="process__count"><span id="process-index">01</span> / 03</p>
+          </div>
+          <ol class="process__steps">
+            <li class="process__step" data-step="0">
+              <h3>A conversation</h3>
+              <p>We meet before the date, talk through the day, and make a simple plan. Where the light falls, when to eat, who matters most.</p>
+            </li>
+            <li class="process__step" data-step="1">
+              <h3>The day itself</h3>
+              <p>We arrive early, stay out of the way, and follow what is already happening. Few directions, long looks, no forced smiles.</p>
+            </li>
+            <li class="process__step" data-step="2">
+              <h3>After</h3>
+              <p>A first look soon after, then the full gallery, then prints if you want them. Kept simple, kept yours.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages section--light" id="packages">
+      <div class="shell">
+        <div class="section-head" data-reveal>
+          <h2>Simple packages</h2>
+          <p>Demo pricing, ready for your real rates.</p>
+        </div>
+        <ul class="package-list">
+          <li class="package">
+            <div>
+              <h3>Essentials</h3>
+              <p>Short portrait session. Pick a location.</p>
+            </div>
+            <ul>
+              <li>One hour shoot</li>
+              <li>20 edited photographs</li>
+              <li>Online gallery link</li>
+            </ul>
+            <div class="package__price"><span class="figure">₹9,999</span><small>Demo price</small></div>
+          </li>
+          <li class="package package--featured">
+            <div>
+              <h3>Signature</h3>
+              <p>Full wedding and family day.</p>
+            </div>
+            <ul>
+              <li>Full day coverage</li>
+              <li>400 plus edited photographs</li>
+              <li>Print ready files</li>
+            </ul>
+            <div class="package__price"><span class="figure">₹34,999</span><small>Demo price</small></div>
+          </li>
+          <li class="package">
+            <div>
+              <h3>Heirloom</h3>
+              <p>Two days with printed album.</p>
+            </div>
+            <ul>
+              <li>Two days coverage</li>
+              <li>Album and wall frame</li>
+              <li>Family group included</li>
+            </ul>
+            <div class="package__price"><span class="figure">₹64,999</span><small>Demo price</small></div>
+          </li>
+        </ul>
+        <p><a class="link" href="services.html">Full packages and details</a></p>
+      </div>
+    </section>
+
+    <section class="closing-image">
+      <figure class="closing-image__media" data-slot="cta" data-alt="Replace with a wide, emotional frame from your own work.">
+        <img src="images/procession.jpg" width="1280" height="853" alt="a black and white procession of a South Indian bride" loading="lazy" style="object-position:50% 45%">
+      </figure>
+      <div class="closing-image__scrim" aria-hidden="true"></div>
+      <div class="shell closing-image__content">
+        <h2>Your day, kept.</h2>
+        <p>Tell us the date and the place. We will take it from there.</p>
+        <a class="btn btn--solid" href="contact.html" data-magnetic>Start a booking</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <div class="site-footer__top">
+        <h2 class="site-footer__word">Nikhil Studio<span>.</span></h2>
+        <div class="site-footer__cols">
+          <div>
+            <h2>Pages</h2>
+            <a href="work.html">Work</a>
+            <a href="studio.html">Studio</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div>
+            <h2>Studio</h2>
+            <span>By appointment</span>
+            <a href="mailto:hello@nikhilstudio.example">hello@nikhilstudio.example</a>
+            <a href="tel:+919876543210">+91 98765 43210</a>
+          </div>
+          <div>
+            <h2>Based in</h2>
+            <span class="fill">Your city</span>
+            <span>Travels anywhere</span>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© 2026 Nikhil Studio. Demo site. Replace photographs, prices and contact details before going live.</p>
+        <p data-credits>Photographs: <a href="https://commons.wikimedia.org/wiki/File:Bride_and_groom_talking_and_walking_together.jpg">Gnoeee</a> (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Indian_Bride_2.jpg">Naveen Kadam</a> (CC BY 2.0), <a href="https://commons.wikimedia.org/wiki/File:Henna_tattoo_(Mehndi)_at_a_wedding_in_India_01.jpg">Kritzolina</a> (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Haldi_Ceremony_-_An_Indian_Wedding_Ritual.jpg">The open draft</a> (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Haldi_ceremony_7.jpg">Yakshitha</a> (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:India_-_Delhi_portrait_of_a_man_-_4780.jpg">Jorge Royan</a> (CC BY-SA 3.0), <a href="https://commons.wikimedia.org/wiki/File:Indian_woman_portrait_II.jpg">Jaime Escrib�</a> (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Woman_harvesting_wheat,_Raisen_district,_Madhya_Pradesh,_India_ggia_version.jpg">Yann Forget</a> (CC BY-SA 3.0), <a href="https://commons.wikimedia.org/wiki/File:Flowerman.jpg">Sanjoykumar99</a> (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Bride_on_Wedding_Day.jpg">Jibukrajan</a> (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:BRIDE_FEELING_JOY_AND_LOVE_IN_MARRIAGE_MOMENTS.jpg">Bhaskark999</a> (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Indian_wedding_couple.jpg">Shaileshbhatnagar77</a> (CC BY-SA 4.0), Wikimedia Commons</p>
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js?v=7"></script>
+  <script>setTimeout(function(){document.body.classList.add('is-ready');document.body.classList.remove('is-locked');document.querySelectorAll('[data-reveal]').forEach(function(el){el.classList.add('is-in')});},2600);</script>
+  <script>window.hallmarkSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
+document.querySelectorAll('[data-slot] img').forEach((i) => { if (i.complete && !i.naturalWidth) i.remove(); else i.addEventListener('error', () => i.remove(), { once: true }); });</script>
+</body>
+</html>
